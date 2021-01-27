@@ -31,12 +31,16 @@
 
 
 .section-4-title {
-    text-align: left;
-    font: $title-font;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    opacity: 1;
+
+    h1{
+        text-align: left;
+        font: $title-font;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
 }
 
 .section-4-text{

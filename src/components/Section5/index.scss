@@ -12,11 +12,15 @@
 
 .section-5-title {
     margin-top: 71px;
-    font: $title-font;
-    letter-spacing: 1px;
-    color: #585858;
-    text-transform: uppercase;
-    opacity: 1;
+
+    h1 {
+        font: $title-font;
+        letter-spacing: 1px;
+        color: #585858;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
 }
 
 .section-5-text {

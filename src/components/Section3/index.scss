@@ -16,10 +16,14 @@
 .section-3-title {
     margin-top: 11.87px;
     max-width: 684px;
-    font: $title-font;
-    color: #585858;
-    text-transform: uppercase;
-    opacity: 1;
+
+    h1{
+        font: $title-font;
+        color: #585858;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
 
 }
 

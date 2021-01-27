@@ -11,11 +11,15 @@
 
 .contact-section-title {
     margin-top: 86px;
-    font: $title-font;
-    letter-spacing: 1px;
-    color: #EA0000;
-    text-transform: uppercase;
-    opacity: 1;
+
+    h1{
+        font: $title-font;
+        letter-spacing: 1px;
+        color: #EA0000;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    
 }
 
 .contact-section-text {
