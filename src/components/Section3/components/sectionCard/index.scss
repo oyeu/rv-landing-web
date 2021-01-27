@@ -1,0 +1,34 @@
+.section-3-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    margin-right:90px;
+}
+
+.section-3-card-number {
+    text-align: left;
+    font: normal normal bold 40px/58px Jost;
+    letter-spacing: 0px;
+    color: #EA0000;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.section-3-card-title {
+    text-align: left;
+    margin-top: 21px;
+    font: normal normal bold 22px/32px Jost;
+    letter-spacing: 0px;
+    color: #585858;
+    opacity: 1;
+    width: max-content;
+}
+
+.section-3-card-text{
+    margin-top: 8px;
+    text-align: left;
+    font: normal normal normal 16px/23px Jost;
+    letter-spacing: 0.4px;
+    color: #585858;
+    opacity: 1;
+}

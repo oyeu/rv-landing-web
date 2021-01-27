@@ -1,0 +1,28 @@
+@import "../Layout/index.scss";
+
+.contact-section{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-section-title {
+    margin-top: 86px;
+    font: $title-font;
+    letter-spacing: 1px;
+    color: #EA0000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.contact-section-text {
+    padding-top: 6px;
+    max-width: 604px;
+    font: normal normal normal 22px/30px Jost;
+    letter-spacing: 0px;
+    color: #585858;
+    opacity: 1;
+}

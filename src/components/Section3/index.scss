@@ -1,0 +1,89 @@
+@import "../Layout/index.scss";
+
+.section-3 {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-3-icon {
+    margin-top: 70.5px;
+}
+
+.section-3-title {
+    margin-top: 11.87px;
+    max-width: 684px;
+    font: $title-font;
+    color: #585858;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+.section-3-text {
+    margin-top: 39px;
+    max-width: 1070px;
+    font: normal normal normal 22px/30px Jost;
+    letter-spacing: 0px;
+    color: #585858;
+    opacity: 1;
+}
+
+.section-3-image-and-card-wrapper {
+    width: 100%;
+    display: flex;
+    margin-top: 14px;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.section-3-image {
+    width: 661px;
+    object-fit: none;
+    object-position: 100% 0%;
+    margin-right: 67px;
+    height: fit-content;
+}
+
+.section-3-cards {
+    margin:auto;
+    margin-top:118px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    >div {
+        display: flex;
+        width: 100%;
+    }
+
+    >div:first-child {
+        .section-3-card-text {
+            p{
+                display: list-item;
+                list-style-position: inside;
+            }
+        }
+    }
+    >div:last-child {
+        margin-top: 38px;
+        >div:first-child {
+            >div:last-child{
+                width:219px;
+            }
+        }
+        >div:last-child {
+            >div:last-child{
+                width:230px;
+            }
+        }
+    }
+    >div >div:last-child {
+        margin-right: 0px;
+    }
+    
+}
